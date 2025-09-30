@@ -193,3 +193,5 @@ def run_install(name="calculator",
     layout.write(script)                   # type script out
     time.sleep(1)
     kbd.send(Keycode.ENTER)                # hit Enter to execute
+
+loading_animation()
